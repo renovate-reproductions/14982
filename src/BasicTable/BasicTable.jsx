@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Table from '../Table/Table.jsx'
+import Table from '../Table33/Table.jsx'
 
 // TODO: add styles as props from the outside
 const BasicTable = ({children}) => (
