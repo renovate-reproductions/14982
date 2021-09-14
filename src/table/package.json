@@ -111,7 +111,7 @@
     "webpack": "5.52.1",
     "webpack-build-notifier": "2.3.0",
     "webpack-cli": "4.8.0",
-    "webpack-dev-server": "4.2.0"
+    "webpack-dev-server": "4.2.1"
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
