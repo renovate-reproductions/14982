@@ -1,1 +1,1 @@
-# react-email-table
+# react-email-components-table
