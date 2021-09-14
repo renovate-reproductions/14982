@@ -41,18 +41,13 @@ My requirements for this package were
 
 
 # Components inside
-- Address
-- BasicTable
-- Copyrights
-- CopyrightSign
-- EmailLink
-- HeadStyles
-- Image
-- ImageLink
-- LeftTable
-- Link
-- Logo
-- PhoneLink
-- SocialMedia
-- Table
-- Unsubscribe
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
