@@ -1,6 +1,6 @@
 {
   "name": "react-email-components-table",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React Component for npm Publication using Rollup",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
@@ -120,7 +120,6 @@
     "react-dom": "^16.12.0 || ^17.0.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.14.6",
-    "react-image": "^4.0.3"
+    "@babel/runtime": "^7.14.6"
   }
 }
