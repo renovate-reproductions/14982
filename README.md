@@ -1,4 +1,4 @@
-# example-rollup-react-component-npm-package
+# yarn add react-email-components-table
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/jaebradley/example-rollup-react-component-npm-package.svg)](https://greenkeeper.io/)
 ![Example Rollup React Component NPM Package](https://github.com/jaebradley/example-rollup-react-component-npm-package/workflows/Example%20Rollup%20React%20Component%20NPM%20Package/badge.svg)
