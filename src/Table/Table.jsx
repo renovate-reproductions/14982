@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Table = ({
-  className, children, style, width, align,
+  className, children, style, width, align, id
 }) => (
   <table
     align={align}
@@ -11,6 +11,7 @@ const Table = ({
     cellSpacing={0}
     style={style}
     width={width}
+    id={id}
   >
     {children}
   </table>
