@@ -10,9 +10,11 @@ const Row = ({ children, className, tbody=false, reverse=false, bodyClassName })
             >
       
               <tbody className={bodyClassName}>
-                <tr>
-                  {children}
-                </tr>
+
+                  {components.map....}
+                    <tr>
+                    {children}
+                    </tr>
               </tbody>
             </table>
         )
@@ -22,9 +24,11 @@ const Row = ({ children, className, tbody=false, reverse=false, bodyClassName })
               className={className}
               dir={reverse && 'rtl'}
             >
-                <tr>
-                    {children}
-                </tr>         
+
+                {components.map....}
+                    <tr>
+                        {children}
+                    </tr>         
             </table>
         )
     }

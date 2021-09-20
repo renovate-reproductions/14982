@@ -8,19 +8,6 @@
 
 Example `React` component "library" using [`rollup`](https://github.com/rollup/rollup) that is published to `npm`.
 
-## `rollup` and `webpack`
-
-There are a lot of articles that compare `rollup` and `webpack` (like [this](https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c) or [this](https://webpack.js.org/comparison/) or [this](https://stackoverflow.com/a/43255948/5225575) or [this](https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/)).
-
-The general point is
-> `webpack` is generally a better fit for applications, and `rollup` is generally a better fit for libraries
-<sup>[1](#general-footnote)</sup>
-
-## So what is this project?
-
-I've never used `rollup` before - hell, I've *barely* used `webpack` before.
-
-This was mostly to see how easy / difficult it was to create a `React` component package using `rollup` (aka "proof-of-concept").
 
 My requirements for this package were
 
@@ -41,13 +28,60 @@ My requirements for this package were
 
 
 # Components inside
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- Table
+- BasicTable
+- Row
+- Rows
+- Section
+- TableLeft
 
+
+### Table
+
+Main Table component, aka Raw table
+
+### BasicTable
+
+this is a simple wrapper around table, with just a set of basic attributes
+
+### Row
+
+Row should help a little bit to remove a number of lines.
+Can be with or without `<tbody>`
+```
+ <table
+    className={className}
+    dir={reverse && 'rtl'}
+>
+    <tbody className={bodyClassName}>
+    <tr>
+        {children}
+    </tr>
+    </tbody>
+</table>
+```
+
+### Rows
+
+Rows is my interpretation of a previous component.
+I just want to have a support for a few TR`s if it will be necessary
+
+like:
+```
+<tbody>
+    <tr>
+        <td align="center" valign="top" class="big-title" style="-webkit-text-size-adjust: 100%; ...">...</td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" style="padding-bottom: 30px; ...">
+            ...
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" class="board-pic" style="padding-bottom: 40px; ...">...</td>
+    </tr>
+```
+
+### Section
+
+### TableLeft
