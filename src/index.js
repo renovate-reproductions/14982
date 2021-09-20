@@ -3,11 +3,12 @@
 import Table from './Table/Table.jsx';
 import TableLeft from './TableLeft/TableLeft.jsx';
 
-// import RowOne from './RowOne/RowOne.jsx'
+import Row from './RowOne/Row.jsx'
 import BasicTable from './BasicTable/BasicTable.jsx';
 
 export {
     Table,
     TableLeft,
-    BasicTable
+    BasicTable,
+    Row
 };
