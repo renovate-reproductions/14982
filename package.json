@@ -16,6 +16,7 @@
     "deploy-storybook-ci": "npx storybook-to-ghpages --ci",
     "gc": "commit",
     "lint": "npx eslint --ext .js,.jsx .",
+    "lint:fix": "eslint ./src --fix --ignore-pattern \"./package.json\" ",
     "prepare": "npm run build",
     "semantic-release": "npx semantic-release",
     "start": "npm run build -- -w",

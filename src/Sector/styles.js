@@ -1,6 +1,6 @@
 export default {
-    textBlock: '',
-    textBlockInner: '',
-    textContentContainer: '',
-    textContent: ''
-}
+  textBlock: '',
+  textBlockInner: '',
+  textContentContainer: '',
+  textContent: '',
+};
