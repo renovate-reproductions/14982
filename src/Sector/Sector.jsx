@@ -1,10 +1,9 @@
 // SECTION is a just two rows together.
-
 import React from 'react';
-import { Table } from 'react-email-components-table';
+import Table from '../Table/Table.jsx';
 import { styles } from './styles';
 
-const Section = ({ children }) => (
+const Sector = ({ children }) => (
   <Table
     className="mcnTextBlock"
     style={styles.textBlock}
@@ -39,4 +38,4 @@ const Section = ({ children }) => (
   </Table>
 );
 
-export default Section;
+export default Sector;

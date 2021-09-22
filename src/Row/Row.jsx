@@ -1,5 +1,7 @@
 import React from 'react'
 
+// import Table from '../Table/Table.jsx';
+
 // TODO how to make it work for both default Table and basic table for example.
 const Row = ({ children, className, tbody=false, reverse=false, bodyClassName }) => {
     if(tbody){
@@ -7,8 +9,7 @@ const Row = ({ children, className, tbody=false, reverse=false, bodyClassName })
             <table
               className={className}
               dir={reverse && 'rtl'}
-            >
-      
+            >      
               <tbody className={bodyClassName}>
                 <tr>
                   {children}

@@ -1,6 +1,6 @@
 {
   "name": "react-email-components-table",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "React Component for npm Publication using Rollup",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
@@ -16,6 +16,7 @@
     "deploy-storybook-ci": "npx storybook-to-ghpages --ci",
     "gc": "commit",
     "lint": "npx eslint --ext .js,.jsx .",
+    "lint:fix": "eslint ./src --fix --ignore-pattern \"./package.json\" ",
     "prepare": "npm run build",
     "semantic-release": "npx semantic-release",
     "start": "npm run build -- -w",
