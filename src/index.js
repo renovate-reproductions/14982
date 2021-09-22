@@ -9,6 +9,7 @@ import BasicTable from './BasicTable/BasicTable.jsx';
 import Sector from './Sector/Sector.jsx';
 
 import Center from './Center/Center.jsx';
+import Spacer from './Spacer/Spacer.jsx';
 
 export {
     Table,
@@ -17,5 +18,6 @@ export {
     Row,
 
     Sector,
-    Center
+    Center,
+    Spacer
 };
