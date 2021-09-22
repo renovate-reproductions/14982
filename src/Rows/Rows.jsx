@@ -1,5 +1,14 @@
 import React from 'react'
 
+const Wrapper = ({ children }) => ( 
+  children.map(Component, child => (
+     <tr>
+        <Component style={...child.props.style} />
+     </tr>
+  ))
+);
+
+
 // TODO how to make it work for both default Table and basic table for example.
 const Row = ({ children, className, tbody=false, reverse=false, bodyClassName }) => {
     if(tbody){
@@ -15,6 +24,8 @@ const Row = ({ children, className, tbody=false, reverse=false, bodyClassName })
                     <tr>
                     {children}
                     </tr>
+
+
               </tbody>
             </table>
         )
@@ -40,8 +51,9 @@ export default Row
 
 {/* 
     
- types:   table, Table, BasicTable
- <Tag
+types: table, Table, BasicTable
+
+<Tag
 className={className}
 dir={reverse && 'rtl'}
 >
@@ -50,4 +62,5 @@ dir={reverse && 'rtl'}
     {children}
   </tr>
 </tbody>
-</Tag> */}
+</Tag> 
+*/}

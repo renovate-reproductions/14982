@@ -1,7 +1,6 @@
 // SECTION is a just two rows together.
-
 import React from 'react';
-import Table from '../Table/Table';
+import Table from '../Table/Table.jsx';
 import { styles } from './styles';
 
 const Sector = ({ children }) => (
