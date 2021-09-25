@@ -78,7 +78,7 @@
     "babel-jest": "27.2.1",
     "babel-loader": "8.2.2",
     "babel-preset-minify": "0.6.0-alpha.9",
-    "bufferutil": "4.0.3",
+    "bufferutil": "4.0.4",
     "canvas": "2.8.0",
     "classnames": "2.3.1",
     "codecov": "3.8.3",
