@@ -1,5 +1,7 @@
 import React from 'react'
 
+//import Table from './Table/Table.jsx';
+
 const Spacer = ({ height, className }) => {
   return (
     <table className={className}>
