@@ -45,6 +45,19 @@ Main Table component, aka Raw table
 
 this is a simple wrapper around table, with just a set of basic attributes
 
+```
+<table 
+    border="0" 
+    cellpadding="0" 
+    cellspacing="0" 
+    role="presentation" 
+    width="100%">
+    <tbody>
+      ...
+    </tbody>
+  </table>
+```
+
 ### Row
 
 Row should help a little bit to remove a number of lines.
