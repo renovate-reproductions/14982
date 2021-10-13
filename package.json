@@ -82,7 +82,7 @@
     "canvas": "2.8.0",
     "classnames": "2.3.1",
     "codecov": "3.8.3",
-    "css-loader": "6.3.0",
+    "css-loader": "6.4.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
     "es-check": "6.0.0",
