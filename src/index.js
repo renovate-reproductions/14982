@@ -3,9 +3,9 @@
 import Table from './Table/Table.jsx';
 import TableLeft from './TableLeft/TableLeft.jsx';
 
-import Row from './Row/Row.jsx';
-
 import BasicTable from './BasicTable/BasicTable.jsx';
+
+import Row from './Row/Row.jsx';
 
 import Sector from './Sector/Sector.jsx';
 
