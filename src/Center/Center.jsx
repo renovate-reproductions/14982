@@ -10,3 +10,5 @@ const Center = ({ children, className }) => (
   </tr>
 </Table> 
 );
+
+export default Center;

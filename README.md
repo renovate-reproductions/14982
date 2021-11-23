@@ -21,13 +21,6 @@ My requirements for this package were
 ---
 
 
-### install
-
-- https://www.npmjs.com/package/@reach/router
-
-- https://reach.tech/router/api/Link
-
-
 # Components inside
 - Table
 - BasicTable
